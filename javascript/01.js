@@ -61,6 +61,13 @@ unNombre ='12.55';
 unNombre= parseFloat( unNombre);
 console.log(unNombre);
 console.log(typeof unNombre);
+// Pour convertir un nombre en tier ou float en string
+
+unNombre = 10;
+var unString = unNombre.toString();
+console.log(unString);
+console.log(typeof unString);
+
 
 //  LA PORTEE DES VARIABLES 
 
@@ -73,4 +80,6 @@ y compris dans les fonctions.
  *Les variables déclarées à l'interieur d'une fonction sont appelées : " variables LOCALES".
 
  Elles sont disponibles UNIQUEMENT dans le scoope de la fonction. */
+
+
  
